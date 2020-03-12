@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-moz-selection {
+background-color: #ffb3d9;
+color: #ffffff;
+}
+
+::selection {
+background-color: #ffb3d9;
+color: #ffffff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20pt;
+  font-family: Book Antiqua, serif;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #262626;
+}
+
+.bg-light {
+  background-color: #FFFFFF;
+}
+
+.border-bottom {
+  border-color: #DBDADB;
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FAFAF9;
+}
+
+/* For large and extra large */
+@media (min-width: 992px) {
+    .pl-lg-6{
+      padding-left: 8rem !important;
+    }
+    .article {
+      padding-left: 10vw;
+      padding-right: 10vw;
+    }
+}
+/* For extra small and small */
+@media (max-width: 767px) {
+  #headshot_about {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #company {
+    display:none;
+  }
+
+  .featurette-heading{
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+.container-fluid p {
+  color: #666666;
+  float: left;
+  font-size: 14pt;
+  font-family: Lucida, Arial, sans-serif;
+}
+
+.container p, h1, h2, h3, h4, h5, li{
+  color: #262626;
+  font-family: 'Inter', Lucida, Arial, sans-serif;
+}
+
+.container-fluid p, h1, h2, h3, h4, h5, li{
+  color: #262626;
+  font-family: 'Inter', Lucida, Arial, sans-serif;
+}
+
+.bg-blue {
+  background-color: #7FA8F3;
+}
+
+#hello {
+  line-height: 1;
+  font-weight: bolder;
+  font-family: Impact, Lucida;
+  font-size: 96pt;
+  margin-right:auto;
+  margin-bottom: 0;
+  padding-bottom:0;
+  color: #262626;
+}
+
+#world {
+  line-height: 1;
+  font-weight: bolder;
+  font-family: 'League Script', Snell Roundhand, Brush Script MT, cursive;
+  font-size: 80pt;
+  margin-top: 0;
+  margin-right:auto;
+  padding-left: 8vw;
+  color: #ffb3d9;
+}
+
+#icons a {
+  color: #F7D261;
+}
+
+#active {
+  color: #FAB323;
+}
+
+#metoo a {
+  color: #347D93;
+}
+
+#platonic a {
+  color: #748D57;
+}
+
+#monsters a {
+  color: #CB7044;
+}
+
+#headshot_about {
+  clear: left;
+  float: right;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+.img-container:hover .img-thumbnail{
+  opacity:0.2;
+}
+
+.text {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  /* padding: 16px 8px; */
+}
+
+.img-container:hover .text {
+  opacity: 1;
+}
+
+#headshot_resume {
+  margin-left:auto;
+  margin-right:auto;
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+#blog_image {
+  opacity: 0.5;
+}
+
+#company {
+  border-radius:15%;
+}
+
+.badge {
+  font-size: 14pt;
+  margin: 0.2vw;
+}
+
+.carousel-caption {
+  color: #262626;
+  font-family: Lucida, sans-serif;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.carousel-item a {
+  color: #262626;
+}
+
+#carousel-header {
+  font-family:'Raleway', Lucida, sans-serif;
+  font-size: 20pt;
+}
+
+#carousel-description {
+  font-size: 12pt;
+  font-family:'Raleway', Lucida, sans-serif;
+  /* text-decoration: overline; */
+}
+
+.img-container h4, h5 {
+  font-family: 'Inter', Lucida, sans-serif;
+}
+
+.footer {
+  text-align: center;
+  background-color: #262626;
+  padding: 10px;
+  font-family: Book Antiqua, serif;
+  height: 60px;
+  color: #cccccc;
+}
