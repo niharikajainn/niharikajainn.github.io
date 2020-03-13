@@ -14,8 +14,6 @@ color: #ffffff;
 
 .navbar-brand {
   font-weight: bold;
-  padding: 10px;
-  font-size: 20pt;
   font-family: Book Antiqua, serif;
 }
 
@@ -54,13 +52,24 @@ color: #ffffff;
     }
 
     #hello {
-      font-size: 80pt;
+      font-size: 120pt;
     }
 
     #world {
       font-size: 80pt;
       padding-left: 8vw;
     }
+}
+/* For medium and bigger */
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding: 10px;
+    font-size: 20pt;
+  }
+
+  .footer {
+    height: 60px;
+  }
 }
 /* For extra small and small */
 @media (max-width: 767px) {
@@ -74,12 +83,21 @@ color: #ffffff;
   }
 
   #hello {
-    font-size: 22vw;
+    font-size: 30vw;
   }
 
   #world {
     font-size: 22vw;
     padding-left: 22vw;
+  }
+
+  .footer {
+    height: 15vw;
+  }
+
+  .navbar-brand {
+    padding: 2vw;
+    font-size: 8vw;
   }
 
   .navbar-toggler {
@@ -117,7 +135,7 @@ color: #ffffff;
 #hello {
   line-height: 1;
   font-weight: bolder;
-  font-family: 'Bowlby One SC', Lucida;
+  font-family: 'Staatliches', Lucida;
   margin-right:auto;
   margin-bottom: 0;
   padding-bottom:0;
@@ -246,6 +264,5 @@ a:hover {
   background-color: #262626;
   padding: 10px;
   font-family: Book Antiqua, serif;
-  height: 60px;
   color: #cccccc;
 }
