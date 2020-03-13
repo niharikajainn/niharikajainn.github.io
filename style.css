@@ -70,6 +70,10 @@ color: #ffffff;
   .footer {
     height: 60px;
   }
+
+  #footer-text {
+    font-size: 14pt;
+  }
 }
 /* For extra small and small */
 @media (max-width: 767px) {
@@ -93,6 +97,10 @@ color: #ffffff;
 
   .footer {
     height: 15vw;
+  }
+
+  #footer-text {
+    font-size: 4vw;
   }
 
   .navbar-brand {
