@@ -74,6 +74,11 @@ color: #ffffff;
   #footer-text {
     font-size: 14pt;
   }
+
+  #headshot_resume {
+    width: 300px;
+    height: 300px;
+  }
 }
 /* For extra small and small */
 @media (max-width: 767px) {
@@ -116,6 +121,13 @@ color: #ffffff;
   .featurette-heading{
     margin-left:auto;
     margin-right:auto;
+  }
+
+  #headshot_resume {
+    width: auto;
+    max-width: 90vw;
+    max-height: 90vw;
+    height: auto;
   }
 }
 
@@ -211,9 +223,6 @@ color: #ffffff;
 #headshot_resume {
   margin-left:auto;
   margin-right:auto;
-  width: auto;
-  max-width: 90vw;
-  height: auto;
   border-radius: 50%;
   border: 1px solid #ddd;
 }
