@@ -155,7 +155,7 @@ color: #ffffff;
 #hello {
   line-height: 1;
   font-weight: bolder;
-  font-family: 'Staatliches', Lucida;
+  font-family: 'Staatliches', Lucida, sans-serif;
   margin-right:auto;
   margin-bottom: 0;
   padding-bottom:0;
